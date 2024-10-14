@@ -1,0 +1,64 @@
+{
+    "employeeData": [
+      {
+        "id": 1,
+        "name": "Esther Howard",
+        "position": "Sale's manager USA",
+        "transactions": 3490,
+        "rise": true,
+        "tasksCompleted": 3,
+        "imgId": 0
+      },
+      {
+        "id": 2,
+        "name": "Eleanor Pena",
+        "position": "Sale's manager Europe",
+        "transactions": 590,
+        "rise": false,
+        "tasksCompleted": 5,
+        "imgId": 2
+      },
+      {
+        "id": 3,
+        "name": "Robert Fox",
+        "position": "Sale's manager Asia",
+        "transactions": 2600,
+        "rise": true,
+        "tasksCompleted": 1,
+        "imgId": 3
+      }
+    ],
+    "graphData": [
+      {
+        "name": "Nov",
+        "revenue": 1200,
+        "expectedRevenue": 1400,
+        "sales": 350
+      },
+      {
+        "name": "Dec",
+        "revenue": 1500,
+        "expectedRevenue": 1600,
+        "sales": 400
+      },
+      {
+        "name": "Jan",
+        "revenue": 1800,
+        "expectedRevenue": 1900,
+        "sales": 450
+      },
+      {
+        "name": "Feb",
+        "revenue": 2000,
+        "expectedRevenue": 2100,
+        "sales": 500
+      },
+      {
+        "name": "Mar",
+        "revenue": 2200,
+        "expectedRevenue": 2300,
+        "sales": 550
+      }
+    ]
+  }
+  
