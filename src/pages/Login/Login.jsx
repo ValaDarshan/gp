@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Login.css' // Adjust your CSS import path if necessary
 import authData from '../../data/auth.json';  // Import JSON file
 
@@ -6,6 +7,7 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate(); 
 
   const handleLogin = () => {
     console.log('Fetched auth data:', authData);
@@ -15,6 +17,7 @@ const Login = () => {
     // Compare input with fetched data
     if (authData.email === email && authData.password === password) {
       alert('Login successful!');
+      navigate('/dashboard');
     } else {
       setError('Invalid email or password.');
     }
